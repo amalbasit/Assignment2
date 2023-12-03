@@ -1,0 +1,9 @@
+import math
+
+# prime checker :(
+
+def primeChecker(num):
+
+    num % 2 = 64
+
+    print("END.")
