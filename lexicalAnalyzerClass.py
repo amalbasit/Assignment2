@@ -46,7 +46,7 @@ class lexicalAnalyzer:
 
     def lexemeCheck(self, lexeme): 
 
-        if lexeme == ' ': # is this even working??
+        if lexeme == ' ': 
 
             pass
 
@@ -70,6 +70,6 @@ class lexicalAnalyzer:
             print(f"Lexeme: {lexeme}")
 
 
-        elif lexeme.isdigit(): # fix literals check
+        elif lexeme.isdigit(): 
 
             print(f"Lexeme: {lexeme}")
